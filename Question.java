@@ -101,7 +101,7 @@ public abstract class Question {
 //        }
 //    }
 //this should be in Quiz?
-    public void displayScore(){
+    public static void displayScore(){
         System.out.println("You have " + points + " points");
     }
 }
